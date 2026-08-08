@@ -1,1 +1,37 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --font-main: 'Inter', sans-serif;
+  --font-accent: 'PressStart2P', fantasy;
+  --font-main-light: 410;
+  --font-main-bold: 715;
+  --font-main-size: 18px;
+  --font-button-size: 14px;
+  --font-color: rgb(0, 0, 0);
+  --border-color: rgb(0, 0, 0);
+  --bg-pattern: 
+    repeating-linear-gradient(
+      to right,
+      #d3d3d3 0 2px,
+      transparent 2px 4px
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      #d3d3d3 0 2px,
+      transparent 2px 4px
+    ),
+    linear-gradient(
+      to bottom,
+      #e7e7e7 0.01%,
+      #1a1a1a
+    );
+    --label-shadow-color: rgb(255, 255, 255);
+    --header-padding: clamp(2rem, 10vh, 6rem);
+    --container-width: clamp(343px, 100%, 700px);
+    --container-height: clamp(327px, 80vh, 368px);
+    --logo-size: clamp(49px, 10vw, 65px);
+    --header-title-size: clamp(14px, 3.5vw, 23px);
+    --gradient-height: clamp(667px, 80vh, 960px);
+    --contour-color: #000000;
+    --animation-fill-color: #ff0000;
+    --accent-color: #000000;
+}
