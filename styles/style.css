@@ -119,6 +119,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  text-align: center;
   justify-self: end;
   margin: 25px;
   gap: 10px;
@@ -186,6 +187,7 @@
 }
 
 .button__text {
+  width: 293px;
   font-family: var(--font-accent, fantasy), fantasy;
   font-size: var(--font-button-size, 14px);
   line-height: 90%;
